@@ -1,0 +1,20 @@
+.newsletter-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f8fa;
+}
+.newsletter-heading {
+  margin-top: var(--dl-space-space-twounits);
+}
+.newsletter-text2 {
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.newsletter-iframe {
+  width: 100vw;
+  height: 100vh;
+}
