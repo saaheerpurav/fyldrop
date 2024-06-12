@@ -8,12 +8,12 @@
   border-radius: 10px;
   flex-direction: column;
   justify-content: flex-start;
+  font-family: Inter;
 }
 .home-header {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-twounits);
-  max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   justify-content: space-between;
 }
@@ -153,6 +153,7 @@
 .home-video {
   width: 60%;
   height: auto;
+  clip-path: inset(1px 1px);
 }
 .home-features {
   width: 100%;
@@ -620,7 +621,6 @@
 .home-footer {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
