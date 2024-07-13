@@ -9,6 +9,7 @@ import NavigationLinks from '../components/navigation-links'
 import EmailForm from '../components/email-form'
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Chatbot from '../app/chatbot';
 
 import './home.css'
 
@@ -361,6 +362,8 @@ const Home = (props) => {
       </div>
 
       <Footer style={{ maxWidth: 1400 }} />
+
+      <Chatbot />
 
     </div>
   )
